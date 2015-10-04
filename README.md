@@ -3,7 +3,8 @@ A Generalized Pascal's Triangle built with threads
 
 This program prints a generalized pascal's triangle based on the supplied parameters.
 
-Usage: java (N) (A) (B) (S)
+## Usage
+java (N) (A) (B) (S)
 
 N: number of rows
 
@@ -13,7 +14,7 @@ B: right side added value
 
 S: top value
 
-Sample inputs and outputs:
+## Sample Input and Output
 
 java GenPasTri 10 0 0 1
 
