@@ -60,3 +60,7 @@ java GenPasTri 10 2 3 4
 20  91  248  448  560  490  296  118  28 
 
 22  111  339  696  1008  1050  786  414  146  31
+
+## Notes
+* GenPasTri creates separate threads to compute each individual element in the triangle.
+* GenPasTri synchronizes all threads to ensure proper output
